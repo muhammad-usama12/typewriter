@@ -7,7 +7,6 @@ for (const char of sentence) {
   }, i); //the initial timeout factor has to be replaced with a variable that adds 50 m/s incrementally as it increases with each letter in the string.
   i += 50;
 }
-
 setTimeout(() => {
   process.stdout.write("\n");
 }, i);
